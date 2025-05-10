@@ -1,5 +1,6 @@
 'use client';
 
+export const runtime = 'nodejs';
 import { useState, useEffect, useRef } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';

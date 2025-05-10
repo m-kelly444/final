@@ -1,6 +1,11 @@
-import { BetterAuth } from 'better-auth';
+'use client' // or avoid this file being imported by Server Components using Edge
+
+// or force Node runtime in route
+export const runtime = 'nodejs'
+
 import { db } from './db';
 import { users } from './db/schema';
+import betterAuth from 'better-auth';
 
 export const {
   getSession,
