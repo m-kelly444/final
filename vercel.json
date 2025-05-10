@@ -1,10 +1,4 @@
 {
-    "crons": [
-      {
-        "path": "/api/ml/cron-train",
-        "schedule": "0 */6 * * *"
-      }
-    ],
     "buildCommand": "pnpm run build",
     "installCommand": "pnpm install",
     "framework": "nextjs",
